@@ -1,0 +1,20 @@
+{
+  "name": "@sasiru/gopodder",
+  "private": true,
+  "workspaces": [
+    "sdk/ts",
+    "docs"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build-ts": "npm run ci -w sdk/ts",
+    "prepublishOnly": "npm run build-ts",
+    "local-release": "changeset version && changeset publish",
+    "docs": "npm run docs:build -w docs"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5"
+  }
+}
