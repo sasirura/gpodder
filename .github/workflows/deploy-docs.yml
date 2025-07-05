@@ -6,6 +6,9 @@ on:
     branches:
       # make sure this is the branch you are using
       - main
+    paths:
+      - 'docs/**'
+      - '.github/workflows/deploy-docs.yml'
 
 permissions:
   contents: write
