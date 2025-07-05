@@ -1,3 +1,3 @@
-import type { Podcast } from "./directory.js";
+import type { Podcast } from './directory.js';
 
-export type SuggestedPodcast = Podcast
+export type SuggestedPodcast = Podcast;

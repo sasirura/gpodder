@@ -1,4 +1,4 @@
 export type User = {
-    username: string
-    deviceId?: string
-}
+  username: string;
+  deviceId?: string;
+};
