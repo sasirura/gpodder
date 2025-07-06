@@ -9,19 +9,19 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
-
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-
     /* If transpiling with TypeScript: */
-    "module": "NodeNext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "outDir": "dist",
     "rootDir": "src",
     "sourceMap": true,
-
     /* AND if you're building for a library: */
-    "declaration": true
-  }
+    "declaration": true,
+    "allowImportingTsExtensions": false
+  },
+  "include": ["src"]
 }
