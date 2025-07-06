@@ -30,13 +30,12 @@ yarn add @sasiru/gpodder
 
 🚀 Quick Start
 Import
+
 ```ts
-import { login } from '@sasiru/gpodder'
+import { login } from '@sasiru/gpodder';
 
-Authenticate and get a client
-
-const { client } = await login({
+await login({
   username: 'my-username',
   password: 'my-password',
-})
+});
 ```
